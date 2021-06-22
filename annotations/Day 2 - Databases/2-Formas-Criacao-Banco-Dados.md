@@ -1,0 +1,6 @@
+# Modos de criação do BD
+-   Usando driver nativos (forma mais manual) = baixando o driver do tipo de bd desejado (MySQL, Oracle, MariaDB) e criar meio que do zero com querys puras. Você precisa saber como fazer as funções de cada banco de dados escolhido (Insert, Put, Delete). O problema é que o framework do BD alterar, você vai ter que alterar o código inteiro que utiliza esse database, usar outro driver, etc.
+
+-   Query builders = Ferramenta que escreve as querys de forma menos manuais como a de utilizar os driver nativos. Exemplo de Query Builder: Knex. É eficiente, permite a utilização de mais de um tipo de banco simultânemanete. Porém ainda é necessário o conhecimento do framework do BD, para enviar alguns parâmetros, ou funções desejadas na query.
+
+-   ORM (Object Relational Map) = Frameworks que ajudam no mapeamento entre a entidade e o objeto. ORM's serão frameworks que pegam o nosso código e transforma ele para uma forma do BD desejado (em qualquer tipo desejado).Faz uma tradução de uma função em uma determinada linguagem (como javascript), para uma outra linguagem (como MySQL). Exemplo de ORM: TypeORM
