@@ -16,7 +16,7 @@
         const admin = true;
 
         if(admin){
-            return next;
+            return next();
         }
 
         //Status 401 - Unauthorized

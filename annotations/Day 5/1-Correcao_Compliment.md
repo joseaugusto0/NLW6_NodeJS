@@ -1,6 +1,7 @@
-import {Request, Response} from 'express'
-import { CreateComplimentService } from '../service/CreateComplimentService'
+# Qual o erro?
+Quando estamos criando um novo elogio (Compliment), ao invés de passarmos o user_sender na requisição (no controller do compliments), iremos pegar direto do token!
 
+```
 class CreateComplimentController{
     async handle(request: Request, response: Response){
         const {tag_id, user_receiver, message} = request.body;
@@ -17,5 +18,4 @@ class CreateComplimentController{
         return response.json(compliment)
     }
 }
-
-export {CreateComplimentController}
+```
