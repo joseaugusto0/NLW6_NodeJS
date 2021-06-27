@@ -30,7 +30,7 @@
 ```
 
 ## Project Routes
-NLWValoriza is composed basically by eight routes:
+NLWValoriza is composed basically by seven routes:
 
 ### 1 - localhost:3000/login - POST
 This route get two parameters sent in request:
