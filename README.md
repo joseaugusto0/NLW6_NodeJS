@@ -3,6 +3,7 @@
 
 ## Description
   The project NLWValoriza consists in an application to make compliments between them users. It's an API to provide the user login and register, the register of new compliments, compliments sended from one user to another, and more. All these routes in the API has a authorization method (based in JWT Auth and 'admin' logic).
+  This application was developed in a programming week proposed by [Rocketseat](https://rocketseat.com.br/) called NLW (Next Level Week) in his 6th edition.
 
 
 # Index
@@ -10,11 +11,11 @@
 - [Installation and running](#instalation)
 - [Project Routes](#project-routes)
 - [Challenges Proposed](#challenges-proposed)
-- [My Annotations](link das anotações)
+- [My Annotations](https://github.com/joseaugusto0/NLW6_NodeJS/tree/main/annotations)
 
 
 ## Installation and running
-- Clone all the repository quoted in [NLW6_NodeJS Repository](link do repositório)
+- Clone all the repository quoted in [NLW6_NodeJS Repository](https://github.com/joseaugusto0/NLW6_NodeJS)
 
 - Open VS Code in *nlwValoriza/* folder
 
@@ -84,6 +85,6 @@ At the final of the programming week, was proposed some changes in the project, 
 - [ ] Made a FrontEnd to complement the backend made.
 - [ ] Try differents DB's (like MongoDB, MariaDB, MySQL, and more)
 
-### Created by: [José Augusto Coura](https://github.com/joseaugusto0) and [Teacher Gabul Sávio](https://github.com/gabuldev)
+### Created by: [José Augusto Coura](https://github.com/joseaugusto0) and [Teacher Daniele Leão](https://github.com/danileao)
 
 
